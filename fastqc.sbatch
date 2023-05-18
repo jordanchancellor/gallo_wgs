@@ -5,6 +5,7 @@
 
 # Load conda enviornments and fastqc
 module load conda
+conda init bash
 conda activate fastqc
 fastqc --version
 if [[ $? -ne 0 ]]
@@ -13,7 +14,7 @@ then
 	exit 1
 fi
 
-for i in $samples_file
+for i in samples_file.txt
 do
 fastqc $i
 done
