@@ -1,5 +1,6 @@
 #workflow adapted from https://github.com/oicr-gsi/bwa/blob/master/bwaMem.wdl
 
+#!/bin/bash
 workflow bwaMem {
     input {
         File fastqR1
