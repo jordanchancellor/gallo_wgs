@@ -1,2 +1,21 @@
 # ignore scripts no longer being used in this analysis
 pipeline-s-latissima-popgen.sh
+admixture.sh
+bwa_aln.sbatch
+bwa_index.sbatch
+bwa_sampe_fixedrg.sbatch
+bwa_sampe.sbatch
+bwa_samples_file.sbatch
+cleanbamfiles.sbatch
+cleansams.sbatch
+collect_wgs_metrics.sbatch
+comparevcfs.sbatch
+extractandfilter.sbatch
+plink_pca.sh
+readstobam.sbatch
+remove_dupes.sbatch
+samples_file.sbatch
+sort_removedupes.sbatch
+sort_vcf.sbatch
+split_intervals.sbatch
+validate_sam_file.sbatch
